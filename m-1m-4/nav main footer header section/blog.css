@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav{
+    background-color: rgb(159, 241, 241);
+    padding: 20px;
+}
+
+nav li a:hover{
+    color: rgb(233, 194, 16);
+}
+
+nav li a{
+    text-decoration: none;
+}
