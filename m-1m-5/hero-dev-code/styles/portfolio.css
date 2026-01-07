@@ -246,3 +246,59 @@ nav .menu a{
     color: #757575;
 }
 
+#resume .btn-center{
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background-color:  rgb(248, 236, 222);
+    margin-top: 113px;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+footer .footer-container .social{
+    max-width: 562px;
+}
+
+footer .footer-container .social h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+footer .footer-container .social p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 28px;
+}
+
+footer .footer-container .social .icons a{
+    margin-right: 24px;
+}
+
+footer .footer-container .form h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+footer .footer-container .form input[type="text"],
+footer .footer-container .form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #757575;
+}
