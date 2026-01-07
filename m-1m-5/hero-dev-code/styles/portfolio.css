@@ -45,7 +45,7 @@ header{
     border: 1px solid red;
     background-color: #FFF8F3;
     background: url(/m-1m-5/hero-dev-code/images/developer.png), url(/m-1m-5/hero-dev-code/images/header_bg.png),#FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 23px, bottom right;
     background-repeat: no-repeat;
     padding-top: 51px;
 }
