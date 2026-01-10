@@ -1,0 +1,56 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.swim-container{
+    border: 1px solid red;
+}
+
+.box{
+    position: relative;
+}
+
+.cox{
+    z-index: 1;
+}
+
+.sixty{
+   top: -100px; 
+   z-index: 5;
+}
+
+.dhaka{
+    top: -50px;
+}
+
+
+/* psudo element */
+
+
+.element h3::after{
+    content: '.pdf';
+    color: red;
+    font-size: 10px;
+    background-color: yellow;
+}
+
+.element h3::before{
+    content: 'start:';
+    color: rgb(0, 255, 106);
+    font-size: 30px;
+    background-color: rgb(89, 0, 255);
+}
+
+
+.element p::first-letter{
+    font-size: 2em;
+}
+
+.element p::first-line{
+    background-color: aquamarine;
+}
+
+::selection{
+    background-color: yellow;
+}
