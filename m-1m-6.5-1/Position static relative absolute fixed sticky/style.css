@@ -1,0 +1,51 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.box{
+    border: 2px dotted red;
+    width: 300px;
+    text-align: center;
+}
+
+.dummy{
+    border: 1px solid tomato;
+    width: 200px;
+    height: 200px;
+}
+.another{
+    border: 1px solid rgb(71, 83, 255);
+}
+
+
+.swim-container{
+    position: relative;
+    border: 2px solid peru;
+}
+
+/* .sixty{
+    position: relative;
+    left: 30px;
+    top: -30px;
+} */
+
+
+/* .sixty{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+} */
+
+
+
+/* .sixty{
+    position: sticky;
+    top: 0px;
+} */
+
+.sixty{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
