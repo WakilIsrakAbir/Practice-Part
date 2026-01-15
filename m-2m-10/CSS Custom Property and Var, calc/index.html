@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Variable</title>
+    <style>
+        :root{
+            --primar-color: tomato;
+            --secondary-color:rgb(211, 137, 137);
+            --font-size: 20px;
+        }
+
+        h1{
+            color: var(--primar-color);
+        }
+
+        h5{
+            background-color: var(--secondary-color);
+        }
+
+        .box{
+            border: 2px solid var(--primar-color);
+            width: calc(100% - 200px);
+        }
+
+        .box p{
+            color: var(--secondary-color);
+        }
+
+        .container{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 200px calc(100% - 200px - 20px);
+            grid-template-rows: 500px;
+            margin-top: 50px;
+        }
+
+        .sidebar{
+            background-color: lightcyan;
+        }
+
+        .content{
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>My custom Property</h1>
+    <h5>Also commonly known as CSS property</h5>
+    <div class="box">
+        <h3>I am doing something</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et voluptates neque unde culpa dolor maiores, quis debitis iste. Recusandae doloremque, ea harum quasi voluptatum quos soluta. Alias, eum repudiandae. Iure perspiciatis illum consectetur nemo eligendi, ducimus adipisci ab est id pariatur voluptatem. Dolorum veniam voluptate debitis sint explicabo ab?</p>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+    </div>
+</body>
+</html>
