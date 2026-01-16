@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Typography</title>
+    <!-- tailwind -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="text-3xl">Intro To Tailwind</h1>
+    <h3>Exploring CSS via Utility Class</h3>
+    <p class="border-x border-black-800">This is Exciting</p>
+    <p class="underline bg-red-300">This is Exciting</p>
+    <p class="underline bg-green-400 ">This is Exciting</p>
+    <p class="underline h-14 bg-linear-to-r from-red-100 to-blue-500">This is Exciting</p>
+    <p class="text-center font-bold">I am exploring Tailwind</p>
+
+    <section class="w-1/2 border border-black-800">
+        <h3 class="border text-2xl mx-10">My section title</h3>
+        <h3 class="text-3xl"> My section title 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A impedit esse magni hic, fugiat quibusdam labore ea similique sapiente distinctio necessitatibus facilis nam itaque, sed modi rerum. Fugit facilis reprehenderit magni reiciendis inventore sapiente. Eos similique nihil consectetur repellat, sed, enim perferendis illum blanditiis vero ab animi, quidem quis architecto. Unde praesentium, optio, iure commodi iusto nulla nam reprehenderit suscipit pariatur vitae eos est et expedita nostrum dolores? Fugit possimus sunt nobis iusto nesciunt quasi quod quas delectus enim deserunt, eveniet animi beatae suscipit minima itaque totam labore ex optio. Minima suscipit qui atque id magni, eligendi hic exercitationem aperiam.</p>
+    </section>
+
+    <!-- Responsive design -->
+    <section class="md:bg-yellow-500 sm:bg-blue-500 m-30">
+        <h3 class="text-3xl">My Responsive Section</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nostrum ipsa! Eius dolor unde magni, minima repellendus sapiente voluptatem atque illum molestiae rem laboriosam ipsam? Mollitia fugit reiciendis quasi, aspernatur cupiditate, velit ut odit, praesentium nisi hic aperiam architecto in laborum alias accusamus eaque. Et incidunt doloribus repellendus maiores eaque!</p>
+    </section>
+
+    <!-- flex-layout -->
+    <section class="md:flex justify-center">
+        <div class="bg-blue-400 border border-4 border-blue-800 w-96 h-32 text-3xl text-center ">Item-1</div>
+        <div class="bg-blue-400 border border-4 border-blue-800 w-96 h-32 text-3xl text-center ">Item-2</div>
+        <div class="bg-blue-400 border border-4 border-blue-800 w-96 h-32 text-3xl text-center ">Item-3</div>
+        <div class="bg-blue-400 border border-4 border-blue-800 w-96 h-32 text-3xl text-center ">Item-4</div>
+    </section>
+
+    <section class="flex justify-center gap-100 mt-10 mb-10">
+        <div class="bg-red-400 border border-2 border-red-800 w-24 h-24 text-3xl text-center ">Item-11</div>
+        <div class="bg-red-400 border border-2 border-red-800 w-24 h-24 text-3xl text-center ">Item-12</div>
+        <div class="bg-red-400 border border-2 border-red-800 w-24 h-24 text-3xl text-center ">Item-13</div>
+    </section>
+
+    <!-- grid -->
+     <section class="grid grid-cols-4 md:grid-cols-5 gap-4 gap-y-10">
+        <div class="bg-pink-500 xl:row-span-3 text-2xl">box-1</div>
+        <div class="bg-pink-500 text-2xl">box-2</div>
+        <div class="bg-pink-500 text-2xl">box-3</div>
+        <div class="bg-pink-500 text-2xl">box-4</div>
+        <div class="bg-pink-500 text-2xl">box-4</div>
+        <div class="bg-pink-500 col-span-2 text-2xl">box-5</div>
+        <div class="bg-pink-500 text-2xl">box-6</div>
+        <div class="bg-pink-500 text-2xl">box-7</div>
+        <div class="bg-pink-500 col-span-4 text-2xl">box-8</div>
+        <div class="bg-pink-500 text-2xl">box-9</div>
+        <div class="bg-pink-500 text-2xl">box-10</div>
+        <div class="bg-pink-500 text-2xl">box-11</div>
+        <div class="bg-pink-500 text-2xl">box-12</div>
+     </section>
+
+    <!-- Card -->
+     <section>
+        <h3 class="text-6xl bg-cyan-400 mt-16 mb-52 p-6">Card Testing</h3>
+     </section>
+</body>
+</html>
